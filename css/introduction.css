@@ -27,6 +27,8 @@
   margin-bottom: 2rem;
   font-size: 4rem;
   line-height: 1.125;
+  font-family: poppins;
+  font-weight: bold;
 }
 
 .introduction-content h1 span{
@@ -38,6 +40,7 @@
   color: #b2b2b2;
   font-size: 1.5rem;
   line-height: 1.5;
+  font-family: 'Roboto';
 }
 
 .introduction-content a{
@@ -50,6 +53,7 @@
   font-size: 1.125rem;
   line-height: 1.33;
   font-weight: bold;
+  font-family: 'Poppins';
 }
 
 .introduction-content a:hover{
