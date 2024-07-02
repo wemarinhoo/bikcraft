@@ -23,12 +23,7 @@
 }
 
 .introduction-content h1{
-  color: #fff;
   margin-bottom: 2rem;
-  font-size: 4rem;
-  line-height: 1.125;
-  font-family: poppins;
-  font-weight: bold;
 }
 
 .introduction-content h1 span{
@@ -37,20 +32,6 @@
 
 .introduction-content p{
   margin-bottom: 1.25rem;
-  color: #b2b2b2;
-  font-size: 1.5rem;
-  line-height: 1.5;
-  font-family: 'Roboto';
-}
-
-@media (max-width: 1200px){
-  .introduction-content h1{
-    font-size: 3rem;
-  }
-
-  .introduction-content p{
-    font-size: 1.125rem;
-  }
 }
 
 @media (max-width: 800px){
@@ -60,7 +41,6 @@
   }
 
   .introduction-content h1{
-    font-size: 2rem;
     margin-bottom: 1rem;
   }
 

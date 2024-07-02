@@ -20,12 +20,10 @@
 }
 
 .header-menu a{
-  color: #fff;
   padding: 1rem 0;
   display: inline-block;
   font-size: 1.125rem;
   position: relative;
-  font-family: 'Poppins';
 }
 
 .header-menu a:after{
