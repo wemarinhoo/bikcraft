@@ -5,10 +5,7 @@
   border-radius: .25rem;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
   color: #332200;
-  font-size: 1.125rem;
-  line-height: 1.33;
-  font-weight: bold;
-  font-family: 'Poppins';
+  font: 600 1.125rem/1.33 'Poppins', sans-serif;
 }
 
 .button:hover{
