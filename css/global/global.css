@@ -1,14 +1,13 @@
-  *::-webkit-scrollbar {
+  body::-webkit-scrollbar {
     width: 8px;
   }
 
-  *::-webkit-scrollbar-track {
-    background: #000;
+  body::-webkit-scrollbar-track {
+    background: none;
   }
 
-  *::-webkit-scrollbar-thumb {
+  body::-webkit-scrollbar-thumb {
     background-color: #ffbb00;
-    border-radius: 8px;
     border: 3px solid #ffbb00;
   }
 
@@ -30,5 +29,8 @@ ul{
 img{
   max-width: 100%;
   display: block;
+}
+
+img[src$=".jpg"]{
   border-radius: 0.25rem;
 }
