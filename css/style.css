@@ -1,7 +1,12 @@
 @import './global/global.css';
+@import './global/header.css';
+@import './global/footer.css';
 @import './utilities/components.css';
 @import './utilities/typography.css';
 @import './utilities/colors.css';
-@import './global/header.css';
 @import './home/introduction.css';
 @import './bicycles/bicycles-list.css';
+@import './technology/technology.css';
+@import './partners/partners.css';
+@import './evidence/evidence.css';
+@import './insurance/insurance.css';
