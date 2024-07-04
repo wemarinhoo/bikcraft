@@ -1,3 +1,9 @@
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
 .button{
   padding: 1rem 2rem;
   display: inline-block;
@@ -17,6 +23,25 @@
   background: var(--c-10);
   color: var(--c-2);
   transition: 0.3s;
+}
+
+.button.arrow{
+  display: flex;
+  align-items: center;
+}
+
+.button.arrow::after{
+  content: "";
+  width: 18px;
+  height: 10px;
+  margin: 0.75rem;
+  display: inline-block;
+  background: url("../../img/icons/seta.svg");
+  transition: transform 0.3s;
+}
+
+.button.arrow:hover::after{
+  transform: translateX(4px);
 }
 
 .button.secondary:hover{
@@ -47,4 +72,23 @@
 
 .link:hover{
   color: var(--c-0);
+}
+
+.title-bg{
+  padding: 3.75rem 0;
+  background-color: var(--c-11);
+}
+
+.title p{
+  margin-bottom: 0.25rem;
+}
+
+@media (max-width: 800px){
+  .title-bg{
+    padding: 2.5rem 0;
+  }
+
+  .title p{
+    font-size: 1rem;
+  }
 }
