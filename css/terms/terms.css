@@ -1,0 +1,17 @@
+.terms {
+  padding: 5rem 0;
+}
+
+.terms h2{
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+.terms p{
+  max-width: 75ch;
+  margin-bottom: 2.5rem;
+}
+
+.terms p + h2{
+  margin-top: 2.5rem;
+}
