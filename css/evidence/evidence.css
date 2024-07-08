@@ -15,6 +15,7 @@
 .evidence-content{
   padding: 2.5rem 2.5rem 5rem 5rem;
   align-self: end;
+  background: url("../../img/dec/bottom-right-p.svg") no-repeat bottom 40px right 40px;
 }
 
 .evidence-content p{
@@ -39,6 +40,12 @@
 
 .evidence p::after{
   content: '”';
+}
+
+@media (min-width: 1200px){
+  .evidence img{
+    max-height: 520px;
+  }
 }
 
 @media (max-width: 800px){

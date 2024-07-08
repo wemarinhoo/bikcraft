@@ -1,5 +1,6 @@
 .questions{
   padding: 7.5rem 0;
+  background: url("../../img/dec/top-right.svg") no-repeat top 140px right 0;
 }
 
 .questions h2{

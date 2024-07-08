@@ -15,6 +15,7 @@
   max-width: max-content;
   border: none;
   cursor: pointer;
+  grid-column: 1/-1;
 }
 
 .button:hover{
@@ -79,6 +80,10 @@
 .title-bg{
   padding: 3.75rem 0;
   background-color: var(--c-11);
+}
+
+.title{
+  background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
 }
 
 .title p{
